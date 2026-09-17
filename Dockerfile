@@ -7,4 +7,4 @@ USER node
 ENV N8N_PORT=10000
 EXPOSE 10000
 
-CMD ["n8n", "start"]
+CMD ["node", "/usr/local/lib/node_modules/n8n/bin/n8n", "start"]
